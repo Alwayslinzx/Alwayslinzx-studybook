@@ -2,6 +2,7 @@ const selectSort = require('./selectSort')
 const quickSort = require('./quickSort')
 const bubbleSort = require('./bubbleSort')
 const insertSort = require('./insertSort')
+const shellSort = require('./shellSort')
 
 const array1 = [5, 4, 3, 2, 1];
 selectSort(array1)
@@ -18,3 +19,7 @@ console.log('bubbleSort result', array3)
 const array4 = [5, 4, 3, 2, 1];
 insertSort(array4)
 console.log('insertSort result', array4)
+
+const array5 = [5, 4, 3, 2, 1];
+shellSort(array5)
+console.log('shellSort result', array5)
