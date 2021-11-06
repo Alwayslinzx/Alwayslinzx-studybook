@@ -13,7 +13,7 @@ function insertSort(array) {
   }
 }
 
-moodule.exports = function bucketSort(array, bucketSize = 5) {
+module.exports = function bucketSort(array, bucketSize = 5) {
   if (!array || array.length <= 0) {
     return array
   }

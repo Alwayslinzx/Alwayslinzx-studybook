@@ -5,7 +5,7 @@ const insertSort = require('./insertSort')
 const shellSort = require('./shellSort')
 const countSort = require('./countSort')
 const mergeSort = require('./mergeSort')
-const bucketSort = require('./bubbleSort')
+const bucketSort = require('./bucketSort')
 
 const array1 = [6, 7, 8, 9, 0, 5, 4, 3, 2, 1];
 selectSort(array1)
@@ -36,7 +36,7 @@ const array7Res = mergeSort(array7)
 console.log('mergeSort result', array7Res)
 
 const array8 = [6, 7, 8, 9, 0, 5, 4, 3, 2, 1];
-const array8Res = mergeSort(array8)
+const array8Res = bucketSort(array8)
 console.log('bucketSort result', array8Res)
 
 // const array8 = [6, 7, 8, 8, 9, 0, 5, 4, 3, 2, 1, 99, 45, 12, 34, 56, 32, 93, 33, 22, 11];
